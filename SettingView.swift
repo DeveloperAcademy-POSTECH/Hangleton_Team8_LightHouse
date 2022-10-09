@@ -6,18 +6,33 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct SettingView: View {
+    
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
+    
+    
     var body: some View {
         Form {
             NavigationLink(destination: MyWebView(urlToLoad: "https://github.com/yeniful/kko_okk/blob/main/lisence.md").navigationTitle("라이센스")) {
                 Label("라이센스", systemImage: "doc.on.clipboard.fill")//
             }
-            
-            NavigationLink {
-                ReportMailView()
-            } label : {
-                Label("BugReport", systemImage: "ladybug.fill")
+            Button(
+                action: {
+                    isShowingMailView.toggle()                },
+                label: {
+                    Label {
+                        Text("오류 및 문의 메일 보내기")
+                            .foregroundColor(.black)
+                    } icon : {
+                        Image(systemName: "ladybug.fill")
+                    }
+                }
+            )
+            .sheet(isPresented: $isShowingMailView) {
+                MailView(isShowing: self.$isShowingMailView, result: self.$result)
             }
         }
         .navigationTitle("설정")

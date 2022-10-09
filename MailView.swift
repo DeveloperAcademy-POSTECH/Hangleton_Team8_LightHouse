@@ -8,34 +8,6 @@ import SwiftUI
 import UIKit
 import MessageUI
 
-struct ReportMailView: View {
-
-    @State var result: Result<MFMailComposeResult, Error>? = nil
-      @State var isShowingMailView = false
-
-      var body: some View {
-
-          VStack {
-              if MFMailComposeViewController.canSendMail() {
-                  Button("버그리포트") {
-                      self.isShowingMailView.toggle()
-                  }
-              } else {
-                  Text("이 기기에서는 메일 발송이 불가능합니다.")
-              }
-              if result != nil {
-                  Text("메일발송 성공")
-                      .lineLimit(nil)
-              }
-          }
-          .sheet(isPresented: $isShowingMailView) {
-              MailView(isShowing: self.$isShowingMailView, result: self.$result)
-          }
-
-      }
-    
-}
-
 struct MailView: UIViewControllerRepresentable {
 
     @Binding var isShowing: Bool
@@ -78,8 +50,8 @@ struct MailView: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<MailView>) -> MFMailComposeViewController {
         let vc = MFMailComposeViewController()
         vc.mailComposeDelegate = context.coordinator
-        vc.setToRecipients(["kkookkreport@gmail.com"])
-        vc.setSubject("앱 버그 신고")
+        vc.setToRecipients(["VoiceOverDictionaryReport@gmail.com"])
+        vc.setSubject("VoiceOverDictionary 버그 신고 및 문의사항")
        // vc.setMessageBody("메시지컨텐츠", isHTML: false)
         //이건 아직 확인 못함
         //비번은 추후 공유하겠습니다.
