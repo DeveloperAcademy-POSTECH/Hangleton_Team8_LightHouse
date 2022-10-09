@@ -16,6 +16,8 @@ struct DetailView: View {
             Text(gesture.subTitle)
             Text(gesture.content)
         }
+        .toolbarBackground(.visible, for: .navigationBar)
+        .navigationBarTitle("텍스트 타이틀", displayMode: .inline)
     }
 }
 

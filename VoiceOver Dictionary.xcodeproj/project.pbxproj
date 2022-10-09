@@ -14,6 +14,7 @@
 		CC4EE92B28F28EE800149D37 /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EE92A28F28EE800149D37 /* Gesture.swift */; };
 		CC4EE92D28F28EF800149D37 /* GestureConstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EE92C28F28EF800149D37 /* GestureConstance.swift */; };
 		CC4EE92F28F28F0900149D37 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EE92E28F28F0900149D37 /* DetailView.swift */; };
+		CC65515628F292EE00E637A2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC65515528F292EE00E637A2 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CC4EE92A28F28EE800149D37 /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		CC4EE92C28F28EF800149D37 /* GestureConstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureConstance.swift; sourceTree = "<group>"; };
 		CC4EE92E28F28F0900149D37 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CC65515528F292EE00E637A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CC4EE92E28F28F0900149D37 /* DetailView.swift */,
 				CC4EE92A28F28EE800149D37 /* Gesture.swift */,
 				CC4EE92C28F28EF800149D37 /* GestureConstance.swift */,
+				CC65515528F292EE00E637A2 /* MainView.swift */,
 				CC4EE92028F254BD00149D37 /* Assets.xcassets */,
 				CC4EE92228F254BD00149D37 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC4EE92B28F28EE800149D37 /* Gesture.swift in Sources */,
+				CC65515628F292EE00E637A2 /* MainView.swift in Sources */,
 				CC4EE91F28F254BC00149D37 /* ContentView.swift in Sources */,
 				CC4EE92D28F28EF800149D37 /* GestureConstance.swift in Sources */,
 				CC4EE92F28F28F0900149D37 /* DetailView.swift in Sources */,
