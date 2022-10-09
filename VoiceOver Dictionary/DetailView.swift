@@ -8,14 +8,47 @@
 import SwiftUI
 
 struct DetailView: View {
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
     let gesture: Gesture
     
     var body: some View {
-        VStack(spacing: 30) {
-            Text(gesture.title)
-            Text(gesture.subTitle)
-            Text(gesture.content)
-        }
+            VStack(spacing: 30) {
+                HStack{
+                    Text(gesture.title).font(.title).fontWeight(.bold)
+                    Spacer()
+                }
+                
+                VStack{
+                    HStack{
+                        Text("기본설명").font(.body).fontWeight(.semibold)
+                        Spacer()
+                    }
+                    HStack{
+                        Text(gesture.subTitle).font(.body).foregroundColor(.gray)
+                        Spacer()
+                    }}
+                
+                VStack{
+                    HStack{
+                        Text("상세설명").font(.body).fontWeight(.semibold)
+                        Spacer()
+                    }
+                    HStack{
+                        Text(gesture.content).font(.body)
+                            .foregroundColor(.gray)
+                        Spacer()
+                    }
+                }
+                Spacer()
+                     .toolbarBackground(.visible, for: .navigationBar)
+                     .navigationBarItems(leading: Button(action:{self.presentationMode.wrappedValue.dismiss()}){
+                         Image(systemName: "chevron.left")
+                         Text("뒤로")
+                     })
+                     .navigationBarBackButtonHidden(true)
+            }.padding()
+
     }
 }
 
