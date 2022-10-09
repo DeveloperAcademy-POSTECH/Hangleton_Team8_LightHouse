@@ -75,11 +75,3 @@ struct MainView: View {
     }
 }
 
-struct TaskRow: View {
-    var body: some View {
-        NavigationLink(destination: Text("Detail View")) {
-            Text("Sample item")
-        }
-    }
-}
-
