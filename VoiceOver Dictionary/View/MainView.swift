@@ -58,9 +58,17 @@ struct MainView: View {
             }
             .navigationBarTitle("VoiceOver Dictionary")
             .toolbar {
-                Button("Help") {
-                    print("Help tapped!")
+                
+                NavigationLink {
+                    SettingView()
+                } label: {
+                    HStack(alignment:.bottom,spacing: 1){
+                        Image(systemName: "gearshape.fill")
+                            .foregroundColor(.black)
+                            .accessibility(label: Text("설정"))
+                    }
                 }
+
             }
             .searchable(text: $searchText)
         }
