@@ -31,7 +31,6 @@ struct MainView: View {
                                             .foregroundColor(.gray)
                                     }
                                 }
-                                .accessibilityElement(children: .contain)
                             }
                         }
                     }
