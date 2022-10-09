@@ -16,7 +16,7 @@ struct SettingView: View {
     
     var body: some View {
         Form {
-            NavigationLink(destination: MyWebView(urlToLoad: "https://github.com/yeniful/kko_okk/blob/main/lisence.md").navigationTitle("라이센스")) {
+            NavigationLink(destination: MyWebView(urlToLoad: "https://github.com/DeveloperAcademy-POSTECH/Hangleton_Team8_LightHouse/blob/b9aef33a6cdeb487b96159b678350dc171bd4fc8/License.md").navigationTitle("라이센스")) {
                 Label("라이센스", systemImage: "doc.on.clipboard.fill")//
             }
             Button(
