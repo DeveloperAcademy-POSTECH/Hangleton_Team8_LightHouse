@@ -2,7 +2,7 @@
 
 # [애플 디벨로퍼 아카데미 제1회 한글톤]
 
-## 보이스오버 사전
+## 보이스오버 기능에 대한 이해 돕기
 
 #### Project Name : VoiceOver Dictionary
 
@@ -18,3 +18,11 @@
 VoiceOver Dictionary는 VoiceOver 기능의 이해를 돕기 위한 앱입니다.
 
 //이미지
+
+# Expectations
+* 보이스오버에 대한 이해
+* 정보 검색
+* 시각장애인에 대한 이해
+
+# Environment
+> SwiftUI
