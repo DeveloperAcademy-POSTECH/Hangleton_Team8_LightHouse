@@ -2,6 +2,10 @@
 
 # [애플 디벨로퍼 아카데미 제1회 한글톤]
 
+## 개발자 정보
+call : 010-3047-1013
+e-mail : VoiceOverDictionaryReport@gmail.com
+
 ## 보이스오버 기능에 대한 이해 돕기
 
 #### Project Name : VoiceOver Dictionary
