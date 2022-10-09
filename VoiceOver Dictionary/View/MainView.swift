@@ -35,10 +35,15 @@ struct MainView: View {
                         }
                     }
                 }
-                .listStyle(GroupedListStyle())
-                .navigationBarTitle("VoiceOver Dictionary")
+                .listStyle(InsetGroupedListStyle())
             }
-
+            .navigationBarTitle("VoiceOver Dictionary")
+            
+            .toolbar {
+                Button("Help") {
+                    print("Help tapped!")
+                }
+            }
         }
     }
 }

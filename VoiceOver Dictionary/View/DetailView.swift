@@ -13,37 +13,66 @@ struct DetailView: View {
     let gesture: Gesture
     
     var body: some View {
+        
+        
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                Text(gesture.title)
-                    .fontWeight(.bold)
-                    .font(.title)
-                    .accessibility(label: Text(gesture.title))
-                    .padding(.vertical, 28)
-                Text("기본설명")
-                    .fontWeight(.semibold)
-                    .font(.body)
-                    .accessibility(label: Text("기본설명"))
-                    .padding(.bottom, 8)
-                Text(gesture.subTitle)
-                    .font(.body).foregroundColor(.gray)
-                    .accessibility(label: Text(gesture.subTitle))
-                    .padding(.bottom, 28)
-                Text("상세설명")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .accessibility(label: Text("상세설명"))
-                    .padding(.bottom, 8)
-                Text(gesture.content)
-                    .font(.body)
-                    .foregroundColor(.gray)
-                    .accessibility(label: Text(gesture.content))
-                    .lineSpacing(10.0)
-                    .padding(.bottom, 28)
+                HStack(spacing: 0) {
+                    Text(gesture.title)
+                        .fontWeight(.bold)
+                        .font(.title)
+                        .accessibility(label: Text(gesture.title))
+                        .padding(.vertical, 28)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+                
+                HStack(spacing: 0) {
+                    Text("기본설명")
+                        .fontWeight(.semibold)
+                        .font(.headline)
+                        .accessibility(label: Text("기본설명"))
+                        .padding(.bottom, 8)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+                
+                HStack(spacing: 0) {
+                    Text(gesture.subTitle)
+                        .font(.body).foregroundColor(.gray)
+                        .accessibility(label: Text(gesture.subTitle))
+                        .padding(.bottom, 28)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+                
+                HStack(spacing: 0) {
+                    Text("상세설명")
+                        .font(.headline)
+                        .fontWeight(.semibold)
+                        .accessibility(label: Text("상세설명"))
+                        .padding(.bottom, 8)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+                
+                HStack(spacing: 0) {
+                    Text(gesture.content)
+                        .font(.body)
+                        .foregroundColor(.gray)
+                        .accessibility(label: Text(gesture.content))
+                        .lineSpacing(8)
+                        .padding(.bottom, 28)
+                    Spacer()
+                }
+                .contentShape(Rectangle())
+                
+                
 #warning("Image -> gesture.imageName으로 변경해주세요 ~~")
                 Image("startVoiceOver")
                     .resizable()
                     .scaledToFill()
+                    .cornerRadius(10)
                     .accessibility(label: Text(gesture.title))
                 Spacer()
             }
