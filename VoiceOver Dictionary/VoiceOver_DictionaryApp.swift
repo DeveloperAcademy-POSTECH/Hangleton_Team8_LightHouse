@@ -11,7 +11,7 @@ import SwiftUI
 struct VoiceOver_DictionaryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
