@@ -67,15 +67,17 @@ struct DetailView: View {
                 }
                 .contentShape(Rectangle())
                 
-                
-#warning("Image -> gesture.imageName으로 변경해주세요 ~~")
-                Image("startVoiceOver")
-                    .resizable()
-                    .scaledToFill()
-                    .cornerRadius(10)
-                    .accessibility(label: Text(gesture.title))
+                if let image = UIImage(named: gesture.imageName) {
+                    Image(uiImage: image)
+                        .resizable()
+                        .scaledToFill()
+                        .cornerRadius(10)
+                        .accessibility(label: Text(gesture.title))
+                        .padding(.top, 20)
+                }
                 Spacer()
             }
+            .padding(.bottom, 20)
             .padding(.horizontal, 16)
         }
         .navigationBarItems(leading: Button(action:{self.presentationMode.wrappedValue.dismiss()}){

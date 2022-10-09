@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "startVoiceOver.png",
+      "filename" : "oneFingerTripleTap.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -10,6 +10,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "oneFingerTripleTap@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
