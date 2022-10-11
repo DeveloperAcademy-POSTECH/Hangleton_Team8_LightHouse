@@ -34,7 +34,7 @@ struct SettingView: View {
                     }
                 )
                 .sheet(isPresented: $isShowingMailView) {
-                    MailView(isShowing: self.$isShowingMailView, result: self.$result)
+                    MailView(isShowing: $isShowingMailView, result: $result)
                 }
             }
         }
