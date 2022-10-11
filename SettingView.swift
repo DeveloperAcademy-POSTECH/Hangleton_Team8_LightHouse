@@ -27,7 +27,7 @@ struct SettingView: View {
                     label: {
                         Label {
                             Text("오류 및 문의 메일 보내기")
-                                .foregroundColor(.black)
+                                .foregroundColor(.primary)
                         } icon : {
                             Image(systemName: "ladybug.fill")
                         }
