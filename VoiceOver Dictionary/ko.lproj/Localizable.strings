@@ -18,7 +18,7 @@
 "LZ_BasicDescription" = "기본설명";
 "LZ_DetailedDescription" = "상세설명";
 
-// MARK: Data->Constants
+// MARK: Data->Constants(Gesture/mainCategory)
 "LZ_requiredFeatures" = "필수 기능";
 "LZ_convenienceFeatures" = "편의 기능";
 // tab
@@ -42,3 +42,68 @@
 // Back tab
 "LZ_backTab" = "뒷면 탭";
 
+
+// MARK: Data->Constants(Gesture/title)
+// 필수기능
+"LZ_Title_StartVoiceOver" = "VoiceOver를 시작하기";
+"LZ_Title_ThreeFingerTripleTap" = "세 손가락으로 삼중 탭";
+"LZ_Title_TwoFingerScrub" = "두 손가락으로 문지르기";
+"LZ_Title_RotorClounterClockwise" = "로터 기능 알아보기";
+// 편의기능
+"LZ_Title_MoveToHome" = "홈으로 이동하기";
+"LZ_Title_AppSwitcher" = "앱 전환기";
+"LZ_Title_ControlCenter" = "제어센터";
+"LZ_Title_NotificationCenter" = "알림센터";
+// 탭: 한 손가락
+"LZ_Title_OneFingerSingleTap" = "한 손가락으로 한 번 탭";
+"LZ_Title_OneFingerDoubleTap" = "한 손가락으로 이중 탭";
+"LZ_Title_OneFingerTripleTap" = "한 손가락으로 삼중 탭";
+"LZ_Title_OneFingerQuadrupleTap" = "한 손가락으로 사중 탭";
+// 탭: 두 손가락
+"LZ_Title_TwoFingerSingleTap" = "두 손가락으로 한 번 탭";
+"LZ_Title_TwoFingerDoubleTap" = "두 손가락으로 이중 탭";
+"LZ_Title_TwoFingerTripleTap" = "두 손가락으로 삼중 탭";
+"LZ_Title_TwoFingerQuadrupleTap" = "두 손가락으로 사중 탭";
+// 탭: 세 손가락
+"LZ_Title_ThreeFingerSingleTap" = "세 손가락으로 한 번 탭";
+"LZ_Title_ThreeFingerDoubleTap" = "세 손가락으로 이중 탭";
+"LZ_Title_ThreeFingerTripleTap" = "세 손가락으로 삼중 탭";
+"LZ_Title_ThreeFingerQuadrupleTap" = "세 손가락으로 사중 탭";
+// 탭: 네 손가락
+"LZ_Title_FourFingerSingleTap" = "네 손가락으로 한 번 탭";
+"LZ_Title_FourFingerDoubleTap" = "네 손가락으로 이중 탭";
+"LZ_Title_FourFingerTripleTap" = "네 손가락으로 삼중 탭";
+"LZ_Title_FourFingerQuadrupleTap" = "네 손가락으로 사중 탭";
+// 쓸어넘기기: 한 손가락
+"LZ_Title_OneFingerSwipeLeft" = "한 손가락으로 왼쪽으로 쓸어 넘기기";
+"LZ_Title_OneFingerSwipeRight" = "한 손가락으로 오른쪽으로 쓸어 넘기기";
+"LZ_Title_OneFingerSwipeUp" = "한 손가락으로 위로 쓸어 올리기";
+"LZ_Title_OneFingerSwipeDown" = "한 손가락으로 아래로 쓸어 내리기";
+// 쓸어넘기기: 두 손가락
+"LZ_Title_TwoFingerSwipeLeft" = "두 손가락으로 왼쪽으로 쓸어 넘기기";
+"LZ_Title_TwoFingerSwipeRight" = "두 손가락으로 오른쪽으로 쓸어 넘기기";
+"LZ_Title_TwoFingerSwipeUp" = "두 손가락으로 위로 쓸어 올리기";
+"LZ_Title_TwoFingerSwipeDown" = "두 손가락으로 아래로 쓸어 내리기";
+// 쓸어넘기기: 세 손가락
+"LZ_Title_ThreeFingerSwipeLeft" = "세 손가락으로 왼쪽으로 쓸어 넘기기";
+"LZ_Title_ThreeFingerSwipeRight" = "세 손가락으로 오른쪽으로 쓸어 넘기기";
+"LZ_Title_ThreeFingerSwipeUp" = "세 손가락으로 위로 쓸어 올리기";
+"LZ_Title_ThreeFingerSwipeDown" = "세 손가락으로 아래로 쓸어 내리기";
+// 쓸어넘기기: 네 손가락
+"LZ_Title_FourFingerSwipeLeft" = "네 손가락으로 왼쪽으로 쓸어넘기기";
+"LZ_Title_FourFingerSwipeRight" = "네 손가락으로 오른쪽으로 쓸어넘기기";
+"LZ_Title_FourFingerSwipeUp" = "네 손가락으로 위로 쓸어넘기기";
+"LZ_Title_FourFingerSwipeDown" = "네 손가락으로 아래로 쓸어넘기기";
+// 회전
+"LZ_Title_TwoFingerRotateCounterClockwise" = "반시계 방향으로 두 손가락 회전";
+"LZ_Title_TwoFingerRotateClockwise" = "시계 방향으로 두 손가락 회전";
+// 문지르기
+"LZ_Title_TwoFingerScrub" = "두 손가락으로 문지르기";
+// 탭하고 누른 채로 있기: 두 손가락
+"LZ_Title_TwoFingerSingleTapAndHold" = "두 손가락으로 한 번 탭하고 누른 채로 있기";
+// 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+"LZ_Title_ThreeFingerDoubleTapHoldAndFlickLeft" = "세 손가락으로 이중 탭하고 누른 채로 왼쪽으로 휙 넘기기";
+"LZ_Title_ThreeFingerDoubleTapHoldAndFlickRight" = "세 손가락으로 이중 탭하고 누른 채로 오른쪽으로 휙 넘기기";
+// 뒷면 탭
+"LZ_Title_DoubleTapTheBackOfYouriPhone" = "iPhone의 뒷면을 이중 탭하기";
+"LZ_Title_TripleTapTheBackOfYouriPhone" = "iPhone의 뒷면을 삼중 탭하기";
