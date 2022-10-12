@@ -64,11 +64,10 @@ struct MainView: View {
                 } label: {
                     HStack(alignment:.bottom,spacing: 1){
                         Image(systemName: "gearshape.fill")
-                            .foregroundColor(.black)
+                            .foregroundColor(.primary)
                             .accessibility(label: Text("설정"))
                     }
                 }
-
             }
             .searchable(text: $searchText)
         }
