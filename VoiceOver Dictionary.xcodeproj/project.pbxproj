@@ -49,13 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC4EE91028F254BC00149D37 = {
+		70DC6DCA28F7059F0079F642 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				70D5A61C28F2ED24005B44D8 /* ExtensionUINavigationController.swift */,
-				70D5A61A28F2B8F9005B44D8 /* MailView.swift */,
-				70D5A61628F2B7A2005B44D8 /* SettingView.swift */,
-				70D5A61828F2B812005B44D8 /* MyWebView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC4EE91028F254BC00149D37 = {
+			isa = PBXGroup;
+			children = (
 				CC4EE91B28F254BC00149D37 /* VoiceOver Dictionary */,
 				CC4EE91A28F254BC00149D37 /* Products */,
 			);
@@ -72,6 +76,7 @@
 		CC4EE91B28F254BC00149D37 /* VoiceOver Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				70DC6DCA28F7059F0079F642 /* Extension */,
 				CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */,
 				CC4EE94628F2A53A00149D37 /* Localizable.strings */,
 				CC4EE93F28F2A4FC00149D37 /* View */,
@@ -94,7 +99,10 @@
 		CC4EE93F28F2A4FC00149D37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70D5A61A28F2B8F9005B44D8 /* MailView.swift */,
 				CC65515528F292EE00E637A2 /* MainView.swift */,
+				70D5A61828F2B812005B44D8 /* MyWebView.swift */,
+				70D5A61628F2B7A2005B44D8 /* SettingView.swift */,
 				CC4EE92E28F28F0900149D37 /* DetailView.swift */,
 			);
 			path = View;
