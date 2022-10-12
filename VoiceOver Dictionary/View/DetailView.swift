@@ -28,10 +28,10 @@ struct DetailView: View {
                 .contentShape(Rectangle())
                 
                 HStack(spacing: 0) {
-                    Text("기본설명")
+                    Text("LZ_BasicDescription".localized)
                         .fontWeight(.semibold)
                         .font(.headline)
-                        .accessibility(label: Text("기본설명"))
+                        .accessibility(label: Text("LZ_BasicDescription".localized))
                         .padding(.bottom, 8)
                     Spacer()
                 }
@@ -47,10 +47,10 @@ struct DetailView: View {
                 .contentShape(Rectangle())
                 
                 HStack(spacing: 0) {
-                    Text("상세설명")
+                    Text("LZ_DetailedDescription".localized)
                         .font(.headline)
                         .fontWeight(.semibold)
-                        .accessibility(label: Text("상세설명"))
+                        .accessibility(label: Text("LZ_DetailedDescription".localized))
                         .padding(.bottom, 8)
                     Spacer()
                 }
@@ -82,7 +82,7 @@ struct DetailView: View {
         }
         .navigationBarItems(leading: Button(action:{self.presentationMode.wrappedValue.dismiss()}){
             Image(systemName: "chevron.left")
-            Text("뒤로")
+            Text("LZ_Back".localized)
         })
         .navigationBarBackButtonHidden(true)
         .navigationBarTitle(Text(""), displayMode: .inline)

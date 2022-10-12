@@ -11,6 +11,7 @@
 		70D5A61928F2B812005B44D8 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61828F2B812005B44D8 /* MyWebView.swift */; };
 		70D5A61B28F2B8F9005B44D8 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61A28F2B8F9005B44D8 /* MailView.swift */; };
 		70D5A61D28F2ED24005B44D8 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */; };
+		70DC6DCC28F7062E0079F642 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC6DCB28F7062E0079F642 /* StringExtension.swift */; };
 		CC4EE91D28F254BC00149D37 /* VoiceOver_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */; };
 		CC4EE92128F254BD00149D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4EE92028F254BD00149D37 /* Assets.xcassets */; };
 		CC4EE92428F254BD00149D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4EE92328F254BD00149D37 /* Preview Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		70D5A61828F2B812005B44D8 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		70D5A61A28F2B8F9005B44D8 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		70DC6DCB28F7062E0079F642 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		CC4EE91928F254BC00149D37 /* VoiceOver Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceOver Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver_DictionaryApp.swift; sourceTree = "<group>"; };
 		CC4EE92028F254BD00149D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */,
+				70DC6DCB28F7062E0079F642 /* StringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			files = (
 				CC4EE92B28F28EE800149D37 /* Gesture.swift in Sources */,
 				70D5A61B28F2B8F9005B44D8 /* MailView.swift in Sources */,
+				70DC6DCC28F7062E0079F642 /* StringExtension.swift in Sources */,
 				CC65515628F292EE00E637A2 /* MainView.swift in Sources */,
 				CC4EE92D28F28EF800149D37 /* Constants.swift in Sources */,
 				70D5A61728F2B7A2005B44D8 /* SettingView.swift in Sources */,

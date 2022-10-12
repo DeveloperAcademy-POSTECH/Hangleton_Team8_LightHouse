@@ -65,7 +65,7 @@ struct MainView: View {
                     HStack(alignment:.bottom,spacing: 1){
                         Image(systemName: "gearshape.fill")
                             .foregroundColor(.primary)
-                            .accessibility(label: Text("설정"))
+                            .accessibility(label: Text("Lz_Setting".localized))
                     }
                 }
             }

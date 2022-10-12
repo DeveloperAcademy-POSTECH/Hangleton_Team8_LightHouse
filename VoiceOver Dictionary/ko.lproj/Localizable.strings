@@ -5,3 +5,40 @@
   Created by 이가은 on 2022/10/09.
   
 */
+
+// MARK: 공통적으로 쓸만한 것들
+"Lz_Setting" = "설정";
+"LZ_Back" = "뒤로";
+"Lz_License" = "라이센스";
+
+// MARK: SettingView
+"Lz_BugMailButton" = "오류 및 문의 메일 보내기"; // Send error and inquiry mail
+
+// MARK: DetailView
+"LZ_BasicDescription" = "기본설명";
+"LZ_DetailedDescription" = "상세설명";
+
+// MARK: Data->Constants
+"LZ_requiredFeatures" = "필수 기능";
+"LZ_convenienceFeatures" = "편의 기능";
+// tab
+"LZ_tabOneFinger" = "탭: 한 손가락";
+"LZ_tabTwoFingers" = "탭: 두 손가락";
+"LZ_tabThreeFingers" = "탭: 세 손가락";
+"LZ_tabFourFingers" = "탭: 네 손가락";
+// swipe
+"LZ_swipeOneFinger" = "쓸어넘기기: 한 손가락";
+"LZ_swipeTwoFingers" = "쓸어넘기기: 두 손가락";
+"LZ_swipeThreeFingers" = "쓸어넘기기: 세 손가락";
+"LZ_swipeFourFingers" = "쓸어넘기기: 네 손가락";
+// rotate
+"LZ_rotate" = "회전";
+// scrub
+"LZ_scrub" = "문지르기";
+// tab & hold two fingers
+"LZ_tabAndHoldTwoFingers" = "탭하고 누른 채로 있기: 두 손가락";
+// double tab, hold, & flick
+"LZ_doubleTabHoldAndFlickThreeFingers" = "이중 탭하고 누른 채로 휙 넘기기: 세 손가락";
+// Back tab
+"LZ_backTab" = "뒷면 탭";
+

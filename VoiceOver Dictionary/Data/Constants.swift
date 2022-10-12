@@ -10,28 +10,28 @@ import Foundation
 struct Constants {
     
     enum MainCategory: String, CaseIterable {
-        case requiredFeatures = "필수 기능"
-        case convenienceFeatures = "편의 기능"
+        case requiredFeatures = "Lz_Setting"
+        case convenienceFeatures = "LZ_convenienceFeatures"
         // tab
-        case tabOneFinger = "탭: 한 손가락"
-        case tabTwoFingers = "탭: 두 손가락"
-        case tabThreeFingers = "탭: 세 손가락"
-        case tabFourFingers = "탭: 네 손가락"
+        case tabOneFinger = "LZ_tabOneFinger"
+        case tabTwoFingers = "LZ_tabTwoFingers"
+        case tabThreeFingers = "LZ_tabThreeFingers"
+        case tabFourFingers = "LZ_tabFourFingers"
         // swipe
-        case swipeOneFinger = "쓸어넘기기: 한 손가락"
-        case swipeTwoFingers = "쓸어넘기기: 두 손가락"
-        case swipeThreeFingers = "쓸어넘기기: 세 손가락"
-        case swipeFourFingers = "쓸어넘기기: 네 손가락"
+        case swipeOneFinger = "LZ_swipeOneFinger"
+        case swipeTwoFingers = "LZ_swipeTwoFingers"
+        case swipeThreeFingers = "LZ_swipeThreeFingers"
+        case swipeFourFingers = "LZ_swipeFourFingers"
         // rotate
-        case rotate = "회전"
+        case rotate = "LZ_rotate"
         // scrub
-        case scrub = "문지르기"
+        case scrub = "LZ_scrub"
         // tab & hold two fingers
-        case tabAndHoldTwoFingers = "탭하고 누른 채로 있기: 두 손가락"
+        case tabAndHoldTwoFingers = "LZ_tabAndHoldTwoFingers"
         // double tab, hold, & flick
-        case doubleTabHoldAndFlickThreeFingers = "이중 탭하고 누른 채로 휙 넘기기: 세 손가락"
+        case doubleTabHoldAndFlickThreeFingers = "LZ_doubleTabHoldAndFlickThreeFingers"
         // Back tab
-        case backTab = "뒷면 탭"
+        case backTab = "LZ_backTab"
     }
     
     static let GestureArray = [
