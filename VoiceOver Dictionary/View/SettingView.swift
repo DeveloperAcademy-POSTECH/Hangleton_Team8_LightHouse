@@ -15,8 +15,8 @@ struct SettingView: View {
     
     var body: some View {
         Form {
-            NavigationLink(destination: MyWebView(urlToLoad: "https://github.com/DeveloperAcademy-POSTECH/Hangleton_Team8_LightHouse/blob/b9aef33a6cdeb487b96159b678350dc171bd4fc8/License.md").navigationTitle("라이센스")) {
-                Label("라이센스", systemImage: "doc.on.clipboard.fill")//
+            NavigationLink(destination: MyWebView(urlToLoad: "https://github.com/DeveloperAcademy-POSTECH/Hangleton_Team8_LightHouse/blob/b9aef33a6cdeb487b96159b678350dc171bd4fc8/License.md").navigationTitle("License".localized)) {
+                Label("Lz_License".localized, systemImage: "doc.on.clipboard.fill")//
             }
             //하단 if문은 메일을 보낼 수 있는지 확인하는 코드입니다.
             if MFMailComposeViewController.canSendMail() {
@@ -26,7 +26,7 @@ struct SettingView: View {
                     },
                     label: {
                         Label {
-                            Text("오류 및 문의 메일 보내기")
+                            Text("Lz_BugMailButton".localized)
                                 .foregroundColor(.primary)
                         } icon : {
                             Image(systemName: "ladybug.fill")
@@ -38,7 +38,7 @@ struct SettingView: View {
                 }
             }
         }
-        .navigationTitle("설정")
+        .navigationTitle("Lz_Setting".localized)
         .navigationBarTitleDisplayMode(.large)
     }
 }
