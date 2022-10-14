@@ -1,7 +1,446 @@
-/* 
+/*
   Localizable.strings
   VoiceOver Dictionary
 
   Created by 이가은 on 2022/10/09.
   
 */
+
+// MARK: 공통적으로 쓸만한 것들
+"Lz_Setting" = "Setting";
+"LZ_Back" = "Back";
+"Lz_License" = "License";
+
+// MARK: SettingView
+"Lz_BugMailButton" = "Send error and inquiry mail";
+
+// MARK: DetailView
+"LZ_BasicDescription" = "Basic Description";
+"LZ_DetailedDescription" = "Detailed Description";
+
+// MARK: Data->Constants(Gesture/mainCategory)
+"LZ_requiredFeatures" = "Required Features";
+"LZ_convenienceFeatures" = "Convenience Features";
+// tap
+"LZ_tapOneFinger" = "Tap: One Finger";
+"LZ_tapTwoFingers" = "Tap: Two Fingers";
+"LZ_tapThreeFingers" = "Tap: Three Fingers";
+"LZ_tapFourFingers" = "Tap: Four Fingers";
+// swipe
+"LZ_swipeOneFinger" = "Swipe: One Finger";
+"LZ_swipeTwoFingers" = "Swipe: Two Fingers";
+"LZ_swipeThreeFingers" = "Swipe: Three Fingers";
+"LZ_swipeFourFingers" = "Swipe: Four Fingers";
+// rotate
+"LZ_rotate" = "Rotate";
+// scrub
+"LZ_scrub" = "Scrub";
+// tap & hold two fingers
+"LZ_tapAndHoldTwoFingers" = "Tap And Hold: Two Fingers";
+// double tap, hold, & flick
+"LZ_doubleTapHoldAndFlickThreeFingers" = "Double Tap Hold And Flick: Three Fingers";
+// Back tap
+"LZ_backTap" = "Back Tap";
+
+
+// MARK: Data->Constants(Gesture/title)
+// 필수기능
+"LZ_Title_StartVoiceOver" = "Start VoiceOver";
+"LZ_Title_ThreeFingerTripleTap" = "Three Finger Triple Tap";
+"LZ_Title_TwoFingerScrub" = "Two Finger Scrub";
+"LZ_Title_RotorClounterClockwise" = "Rotor Clounter Clockwise";
+// 편의기능
+"LZ_Title_MoveToHome" = "Move To Home";
+"LZ_Title_AppSwitcher" = "App Switcher";
+"LZ_Title_ControlCenter" = "Control Center";
+"LZ_Title_NotificationCenter" = "Notification Center";
+// 탭: 한 손가락
+"LZ_Title_OneFingerSingleTap" = "One Finger Single Tap";
+"LZ_Title_OneFingerDoubleTap" = "One Finger Double Tap";
+"LZ_Title_OneFingerTripleTap" = "One Finger Triple Tap";
+"LZ_Title_OneFingerQuadrupleTap" = "One Finger Quadruple Tap";
+// 탭: 두 손가락
+"LZ_Title_TwoFingerSingleTap" = "Two Finger Single Tap";
+"LZ_Title_TwoFingerDoubleTap" = "Two Finger Double Tap";
+"LZ_Title_TwoFingerTripleTap" = "Two Finger Triple Tap";
+"LZ_Title_TwoFingerQuadrupleTap" = "Two Finger Quadruple Tap";
+// 탭: 세 손가락
+"LZ_Title_ThreeFingerSingleTap" = "Three Finger Single Tap";
+"LZ_Title_ThreeFingerDoubleTap" = "Three Finger Double Tap";
+"LZ_Title_ThreeFingerTripleTap" = "Three Finger Triple Tap";
+"LZ_Title_ThreeFingerQuadrupleTap" = "Three Finger Quadruple Tap";
+// 탭: 네 손가락
+"LZ_Title_FourFingerSingleTap" = "Four Finger Single Tap";
+"LZ_Title_FourFingerDoubleTap" = "Four Finger Double Tap";
+"LZ_Title_FourFingerTripleTap" = "Four Finger Triple Tap";
+"LZ_Title_FourFingerQuadrupleTap" = "Four Finger Quadruple Tap";
+// 쓸어넘기기: 한 손가락
+"LZ_Title_OneFingerSwipeLeft" = "One Finger Swipe Left";
+"LZ_Title_OneFingerSwipeRight" = "One Finger Swipe Right";
+"LZ_Title_OneFingerSwipeUp" = "One Finger Swipe Up";
+"LZ_Title_OneFingerSwipeDown" = "One Finger Swipe Down";
+// 쓸어넘기기: 두 손가락
+"LZ_Title_TwoFingerSwipeLeft" = "Two Finger Swipe Left";
+"LZ_Title_TwoFingerSwipeRight" = "Two Finger Swipe Right";
+"LZ_Title_TwoFingerSwipeUp" = "Two Finger Swipe Up";
+"LZ_Title_TwoFingerSwipeDown" = "Two Finger Swipe Down";
+// 쓸어넘기기: 세 손가락
+"LZ_Title_ThreeFingerSwipeLeft" = "Three Finger Swipe Left";
+"LZ_Title_ThreeFingerSwipeRight" = "Three Finger Swipe Right";
+"LZ_Title_ThreeFingerSwipeUp" = "Three Finger Swipe Up";
+"LZ_Title_ThreeFingerSwipeDown" = "Three Finger Swipe Down";
+// 쓸어넘기기: 네 손가락
+"LZ_Title_FourFingerSwipeLeft" = "Four Finger Swipe Left";
+"LZ_Title_FourFingerSwipeRight" = "Four Finger Swipe Right";
+"LZ_Title_FourFingerSwipeUp" = "Four Finger Swipe Up";
+"LZ_Title_FourFingerSwipeDown" = "Four Finger Swipe Down";
+// 회전
+"LZ_Title_TwoFingerRotateCounterClockwise" = "Two Finger Rotate Counter Clockwise";
+"LZ_Title_TwoFingerRotateClockwise" = "Two Finger Rotate Clockwise";
+// 문지르기
+"LZ_Title_TwoFingerScrub" = "Two Finger Scrub";
+// 탭하고 누른 채로 있기: 두 손가락
+"LZ_Title_TwoFingerSingleTapAndHold" = "Two Finger Single Tap And Hold";
+// 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+"LZ_Title_ThreeFingerDoubleTapHoldAndFlickLeft" = "Three Finger Double Tap Hold And Flick Left";
+"LZ_Title_ThreeFingerDoubleTapHoldAndFlickRight" = "Three Finger Double Tap Hold And Flick Right";
+// 뒷면 탭
+"LZ_Title_DoubleTapTheBackOfYouriPhone" = "Double Tap The Back Of Your iPhone";
+"LZ_Title_TripleTapTheBackOfYouriPhone" = "Triple Tap The Back Of Your iPhone";
+
+// MARK: Data->Constants(Gesture/subTitle)
+// 필수기능
+"LZ_SubTitle_StartVoiceOver" = " VoiceOver를 켜거나 끄는 방법";
+"LZ_SubTitle_ThreeFingerTripleTap" = "화면 커튼 토글";
+"LZ_SubTitle_TwoFingerScrub" = "취소 하기";
+"LZ_SubTitle_RotorClounterClockwise" = "로터 사용법";
+// 편의기능
+"LZ_SubTitle_MoveToHome" = "홈으로 이동하기 위한 방법";
+"LZ_SubTitle_AppSwitcher" = "앱 전환기를 실행하기 위한 방법";
+"LZ_SubTitle_ControlCenter" = "제어센터를 열거나 닫기 위한 방법";
+"LZ_SubTitle_NotificationCenter" = "알림센터를 열거나 닫기 위한 방법";
+// 탭: 한 손가락
+"LZ_SubTitle_OneFingerSingleTap" = "항목 말하기";
+"LZ_SubTitle_OneFingerDoubleTap" = "활성화";
+"LZ_SubTitle_OneFingerTripleTap" = "길게 누르기 수행";
+"LZ_SubTitle_OneFingerQuadrupleTap" = "보조 활성화";
+// 탭: 두 손가락
+"LZ_SubTitle_TwoFingerSingleTap" = "말하기 토글";
+"LZ_SubTitle_TwoFingerDoubleTap" = "매직 탭";
+"LZ_SubTitle_TwoFingerTripleTap" = "항목 선택 화면 보기";
+"LZ_SubTitle_TwoFingerQuadrupleTap" = "빠른 설정 열기";
+// 탭: 세 손가락
+"LZ_SubTitle_ThreeFingerSingleTap" = "항목 요약 읽기";
+"LZ_SubTitle_ThreeFingerDoubleTap" = "소리 끔 토글";
+"LZ_SubTitle_ThreeFingerTripleTap" = "화면 커튼 토글";
+"LZ_SubTitle_ThreeFingerQuadrupleTap" = "말하기 내용을 클립보드로 복사";
+// 탭: 네 손가락
+"LZ_SubTitle_FourFingerSingleTap" = "최상단 혹은 최하단 항목 선택";
+"LZ_SubTitle_FourFingerDoubleTap" = "시작 도움말";
+"LZ_SubTitle_FourFingerTripleTap" = "감지 모드";
+"LZ_SubTitle_FourFingerQuadrupleTap" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+// 쓸어넘기기: 한 손가락
+"LZ_SubTitle_OneFingerSwipeLeft" = "이전 항목으로 이동";
+"LZ_SubTitle_OneFingerSwipeRight" = "다음 항목으로 이동";
+"LZ_SubTitle_OneFingerSwipeUp" = "이전 로터 항목";
+"LZ_SubTitle_OneFingerSwipeDown" = "다음 로터 항목";
+// 쓸어넘기기: 두 손가락
+"LZ_SubTitle_TwoFingerSwipeLeft" = "밖으로 이동";
+"LZ_SubTitle_TwoFingerSwipeRight" = "안으로 이동";
+"LZ_SubTitle_TwoFingerSwipeUp" = "위에서부터 읽기";
+"LZ_SubTitle_TwoFingerSwipeDown" = "모두 읽기";
+// 쓸어넘기기: 세 손가락
+"LZ_SubTitle_ThreeFingerSwipeLeft" = "오른쪽으로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeRight" = "왼쪽으로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeUp" = "아래로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeDown" = "위로 스크롤";
+// 쓸어넘기기: 네 손가락
+"LZ_SubTitle_FourFingerSwipeLeft" = "이전 앱으로 전환";
+"LZ_SubTitle_FourFingerSwipeRight" = "다음 앱으로 전환";
+"LZ_SubTitle_FourFingerSwipeUp" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+"LZ_SubTitle_FourFingerSwipeDown" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+// 회전
+"LZ_SubTitle_TwoFingerRotateCounterClockwise" = "이전 로터";
+"LZ_SubTitle_TwoFingerRotateClockwise" = "다음 로터";
+// 문지르기
+"LZ_SubTitle_TwoFingerScrub" = "취소 하기";
+// 탭하고 누른 채로 있기: 두 손가락
+"LZ_SubTitle_TwoFingerSingleTapAndHold" = "항목 레이블 정하기";
+// 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickLeft" = "실행 취소";
+"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickRight" = "실행 복귀";
+// 뒷면 탭
+"LZ_SubTitle_DoubleTapTheBackOfYouriPhone" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+"LZ_SubTitle_TripleTapTheBackOfYouriPhone" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+
+
+// MARK: Data->Constants(Gesture/content)
+// 필수기능
+"LZ_Content_StartVoiceOver" =
+    "총 세 가지 방법이 있습니다.\n\n첫 번째로, 시리를 호출한 후 “보이스오버 켜줘”라고 말할 시 VoiceOver 기능을 사용하실 수 있습니다. 다시 끄고 싶은 경우에는 시리를 호출한 후 “보이스오버 꺼줘”라고 말해보세요.\n\n두 번째로, 설정 앱에서 “손쉬운 사용”으로 이동 후 VoiceOver 화면으로 이동하면, VoiceOver를 켜고 끌 수 있습니다.\n\n마지막으로, 설정 앱에서 “손쉬운 사용”으로 이동 후 “손쉬운 사용 단축키”에서 VoiceOver를 단축키로 설정할 수 있습니다. 설정 후에 홈버튼이 없는 기종의 경우 전원 버튼을 삼중 클릭하면 VoiceOver를 끄고 킬 수 있습니다. 홈버튼이 있는 기종의 경우에는 홈 버튼을 삼중 클릭하세요.";
+
+"LZ_Content_ThreeFingerTripleTap" =
+    "화면 커튼이 켜져 있으면 화면을 완전히 어둡게 만들어줍니다. 다른 사람에게는 화면이 꺼져 보이지만, 기기 및 VoiceOver 탐색이 활성 상태로 유지됩니다. 개인정보 보호 기능을 강화 시 키기기 위해서 해당 기능을 사용하실 수 있습니다. \n한 번 더 세 손가락으로 삼중 탭 할 경우 화면 커튼 기능이 꺼집니다. \n손쉬운 사용의 확대/축소가 활성화되어 있으면 세 손가락으로 사중 탭 하기 제스처를 통해 해당 기능을 이용할 수 있습니다.";
+
+"LZ_Content_TwoFingerScrub" =
+    "이전 화면으로 이동하거나 화면을 닫습니다. 두 손가락을 Z모양으로 드래그하면 해당 화면의 이전 화면으로 이동하거나 제어센터, 알림센터, 앱 전환기, 앱폴더 등 닫기 버튼이 따로 없는 화면을 닫습니다. 키보드가 열려 있을 경우에는 키보드를 접을 수 있습니다.";
+"LZ_Content_RotorClounterClockwise" =
+    "로터를 사용하여 음량, 말하기 속도, 음높이 변경 또는 발음 기호 사용, 에코 입력 및 구두점 읽기와 같은 설정을 조절할 수 있습니다.\n화면에 두 손가락을 올려놓은 채로 두 손가락을 시계 또는 반시계 방향으로 회전시켜서 사용이 가능합니다. 양손을 사용하는 경우에는 한 손가락은 고정해두고 나머지 한 손가락을 시계 또는 반시계 방향으로 드래그하세요.";
+// 편의기능
+"LZ_Content_MoveToHome" =
+    "홈버튼이 없는 기종일 경우 알림음이 2번 울릴 때까지 화면 하단 가장자리에서 위의 방향으로 쓸어 올리세요. \n홈버튼이 있는 기종의 경우에는 홈 버튼을 한번 클릭하세요.";
+
+"LZ_Content_AppSwitcher" =
+    "홈버튼이 없는 기종일 경우 알림음이 3번 울릴 때까지 화면 하단 가장자리에서 위의 방향으로 길게 쓸어 올리세요. \n홈버튼이 있는 기종일 경우 홈 버튼을 두 번 클릭하세요. \n앱 전환기에 있는 앱을 삭제하고 싶은 경우 해당 앱을 선택하고 세 손가락을 위로 드래그하세요.";
+"LZ_Content_ControlCenter" =
+    "시간, 배터리 등 상태 아이콘이 표시되어 있는 최상단의 상태 막대를 탭한 후 세 손가락을 위쪽 방향으로 쓸어 올리세요. \n제어센터를 닫으려면 두 손가락으로 문지르기를 하시면 됩니다.";
+"LZ_Content_NotificationCenter" =
+    "시간 및 베터리가 표시되어 있는 최상단의 상태 막대를 탭한 후 세 손가락을 아래쪽 방향으로 쓸어 내리세요. \n알림센터를 닫으려면 두 손가락으로 문지르기를 하시면 됩니다.";
+
+// 탭: 한 손가락
+"LZ_Content_OneFingerSingleTap" =
+    "터치한 대상을 알려줍니다.";
+
+"LZ_Content_OneFingerDoubleTap" =
+    "선택된 대상을 동작시킵니다. VoiceOver가 꺼져있는 상태에서의 클릭과 비슷한 역할을 수행합니다. \n예를 들어 토글이 선택되어 있다면 토글을 켜거나 끄며, 버튼이 선택되어 있다면 버튼을 실행합니다. \n대상을 실행시키는 기본 동작입니다.";
+
+"LZ_Content_OneFingerTripleTap" =
+    "빠른 메뉴를 실행시킵니다. 앱 편집 등에 활용 가능합니다. \n빠른 메뉴 화면을 닫으려면 두 손가락으로 문지르기를 하시면 됩니다.";
+
+"LZ_Content_OneFingerQuadrupleTap" =
+    "보조 활성화를 지원하지 않는 대상이라면 한 손가락으로 이중 탭을 두 번 실행한 것으로 인식합니다. \n(보조 활성화가 사용된 예시는 아직 찾지 못했습니다.)";
+
+// 탭: 두 손가락
+"LZ_Content_TwoFingerSingleTap" =
+    "VoiceOver가 말하는 도중에 두 손가락으로 화면을 터치하면 말을 끊고 멈춥니다. 한 번 더 두 손가락으로 한번 탭 할 경우 멈춘 부분부터 다시 재생합니다.";
+
+"LZ_Content_TwoFingerDoubleTap" =
+    "음악이나 영상 등 재생 중인 미디어가 중지됩니다. 한 번 더 두 손가락으로 이중 탭 할 경우 멈춰진 부분부터 다시 재생됩니다. 텍스트의 경우에는 말을 끊고 멈춥니다. \n텍스트를 입력 할 때 두 손가락으로 이중 탭을 하면 사용자의 음성을 인식하여 음성을 텍스트로 전환하여 입력합니다.";
+
+"LZ_Content_TwoFingerTripleTap" =
+    "현재 화면에 있는 항목들이 한글일 경우 가나다순으로, 영어일 경우 알파벳순으로 리스트 형태로 정렬되어 표시됩니다. \n두 손가락으로 문지르기를 하면 항목 선택 화면이 해제됩니다.";
+
+"LZ_Content_TwoFingerQuadrupleTap" =
+    "VoiceOver에 대한 빠른 설정 화면이 열립니다. \n두 손가락으로 문지르기를 하면 빠른 설정 화면이 해제 됩니다.";
+
+// 탭: 세 손가락
+"LZ_Content_ThreeFingerSingleTap" =
+    "현재 화면에서 선택되어 있는 항목에 대한 정보를 요약해서 설명해 줍니다.";
+
+"LZ_Content_ThreeFingerDoubleTap" =
+    "VoiceOver의 말하기 기능이 꺼집니다. \n한 번 더 세 손가락으로 이중 탭을 하면 말하기 기능이 다시 켜집니다.";
+
+"LZ_Content_ThreeFingerTripleTap" =
+    "화면 커튼 기능이 켜서 화면을 완전히 어둡게 만들어줍니다. 다른 사람에게는 화면이 꺼져 보이지만, 기기 및 VoiceOver 탐색이 활성 상태로 유지됩니다. 개인정보 보호 기능을 강화 시 키기기 위해서 해당 기능을 사용하실 수 있습니다. \n한 번 더 세 손가락으로 삼중 탭하면 화면 커튼 기능이 꺼집니다. \n손쉬운 사용의 확대/축소가 활성화되어 있으면 세 손가락으로 사중 탭하여 통해 해당 기능을 이용할 수 있습니다.";
+
+"LZ_Content_ThreeFingerQuadrupleTap" =
+    "현재 항목의 말하기 내용을 클립보드로 복사됩니다. 손쉬운 사용의 확대/축소가 활성화되어 있으면 세 손가락으로 오중 탭하여 통해 해당 기능을 이용할 수 있습니다.";
+
+// 탭: 네 손가락
+"LZ_Content_FourFingerSingleTap" =
+    "화면 윗 부분을 네 손가락으로 한 번 탭하면 VoiceOver가 접근 가능한 제일 위의 항목을 선택합니다.\n화면 아랫 부분을 네 손가락으로 한 번 탭하면 VoiceOver가 접근 가능한 제일 마지막 항목을 선택합니다.";
+
+"LZ_Content_FourFingerDoubleTap" =
+    "VoiceOver 연습을 실행할 수 있습니다. \n한 번 더 네 손가락으로 이중 탭하면 VoiceOver 연습을 종료합니다.";
+
+"LZ_Content_FourFingerTripleTap" =
+    "주변 탐색을 하는 데 도움을 주는 확대기의 감지 모드 기능을 사용하실 수 있습니다. \n다만, iOS 16 이상의 라이더 센서가 있는 iPhone 12 이상 Pro 기종에서만 감지 모드의 전체 기능을 사용할 수 있습니다.";
+
+"LZ_Content_FourFingerQuadrupleTap" =
+    "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
+
+// 쓸어넘기기: 한 손가락
+"LZ_Content_OneFingerSwipeLeft" =
+    "이전 항목을 선택합니다. 빠르게 쓸어 넘겨야 한 손가락으로 탭 후 드래그로 인식하지 않습니다.";
+
+"LZ_Content_OneFingerSwipeRight" =
+    "다음 항목을 선택합니다. 빠르게 쓸어 넘겨야 한 손가락으로 탭 후 드래그로 인식하지 않습니다.";
+
+"LZ_Content_OneFingerSwipeUp" =
+    "현재 선택되어 있는 로터의 이전 항목을 실행합니다. 로터가 활성화 된 후 빠르게 쓸어 올려야 인식이 잘 됩니다.";
+
+"LZ_Content_OneFingerSwipeDown" =
+    "현재 선택되어 있는 로터의 다음 항목을 실행합니다. 로터가 활성화 된 후 빠르게 쓸어 내려야 인식이 잘 됩니다.";
+
+// 쓸어넘기기: 두 손가락
+"LZ_Content_TwoFingerSwipeLeft" =
+    "(해당 제스처는 어떤 상황에서 동작하는지 찾지 못하였습니다.)";
+
+"LZ_Content_TwoFingerSwipeRight" =
+    "(해당 제스처는 어떤 상황에서 동작하는지 찾지 못하였습니다.)";
+
+"LZ_Content_TwoFingerSwipeUp" =
+    "현재 화면의 최상단부터 아래로 순차적으로 모든 항목을 읽어줍니다.";
+
+"LZ_Content_TwoFingerSwipeDown" =
+    "현재 화면의 선택된 항목부터 아래로 순차적으로 모든 항목을 읽어줍니다.";
+
+// 쓸어넘기기: 세 손가락
+"LZ_Content_ThreeFingerSwipeLeft" =
+    "화면을 오른쪽으로 스크롤 합니다. \n스크롤을 할 수 있는 상태가 아니면 스크롤이 되지 않습니다.";
+
+"LZ_Content_ThreeFingerSwipeRight" =
+    "화면을 왼쪽으로 스크롤 합니다. \n스크롤을 할 수 있는 상태가 아니면 스크롤이 되지 않습니다.";
+
+"LZ_Content_ThreeFingerSwipeUp" =
+    "화면을 아래로 스크롤 합니다. \n스크롤 할 수 있는 상태가 아니면 스크롤이 되지 않습니다.";
+
+"LZ_Content_ThreeFingerSwipeDown" =
+    "화면을 위로 스크롤 합니다. \n스크롤 할 수 있는 상태가 아니면 스크롤이 되지 않습니다.";
+
+// 쓸어넘기기: 네 손가락
+"LZ_Content_FourFingerSwipeLeft" =
+    "실행하고 있는 앱의 이전 앱으로 화면이 전환됩니다.";
+
+"LZ_Content_FourFingerSwipeRight" =
+    "실행하고 있는 앱의 다음 앱으로 화면이 전환됩니다.";
+
+"LZ_Content_FourFingerSwipeUp" =
+    "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
+
+"LZ_Content_FourFingerSwipeDown" =
+    "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
+
+// 회전
+"LZ_Content_TwoFingerRotateCounterClockwise" =
+    "화면에 두 손가락을 올려놓은 채로 두 손가락을 반시계 방향으로 회전시켜서 사용이 가능합니다. 양손을 사용하는 경우에는 한 손가락은 고정해두고 나머지 한 손가락을 반시계 방향으로 드래그하세요. \n로터를 사용하여 음량, 말하기 속도, 음높이 변경 또는 발음 기호 사용, 에코 입력 및 구두점 읽기와 같은 설정을 조절할 수 있습니다.";
+
+"LZ_Content_TwoFingerRotateClockwise" =
+    "화면에 두 손가락을 올려놓은 채로 두 손가락을 시계 방향으로 회전시켜서 사용이 가능합니다. 양손을 사용하는 경우에는 한 손가락은 고정해두고 나머지 한 손가락을 시계 방향으로 드래그하세요. \n로터를 사용하여 음량, 말하기 속도, 음높이 변경 또는 발음 기호 사용, 에코 입력 및 구두점 읽기와 같은 설정을 조절할 수 있습니다.";
+
+// 문지르기
+"LZ_Content_TwoFingerScrub" =
+    "이전 화면으로 이동하거나 화면을 닫습니다. 두 손가락을 Z모양으로 드래그하면 해당 화면의 이전 화면으로 이동하거나 제어센터, 알림센터, 앱 전환기, 앱폴더 등 닫기 버튼이 따로 없는 화면을 닫습니다. 키보드가 열려 있을 경우에는 키보드를 접을 수 있습니다.";
+
+// 탭하고 누른 채로 있기: 두 손가락
+"LZ_Content_TwoFingerSingleTapAndHold" =
+    "두 손가락으로 한 번 탭하고 두 번째 탭을 알림음이 3번 울릴 때까지 누른 채로 유지합니다. VoiceOver가 읽어주는 기본 설명이 변경되고 화면상에 보이는 텍스트는 변하지 않습니다. \n기본 설명으로 초기화 하고 싶다면 커스텀한 설명을 모두 삭제한 뒤 비어있는 상태로 저장하시면 됩니다.";
+
+// 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+"LZ_Content_ThreeFingerDoubleTapHoldAndFlickLeft" =
+    "(해당 제스처는 어떤 상황에서 동작하는지 찾지 못했습니다.)";
+
+"LZ_Content_ThreeFingerDoubleTapHoldAndFlickRight" =
+    "(해당 제스처는 어떤 상황에서 동작하는지 찾지 못했습니다.)";
+
+// 뒷면 탭
+"LZ_Content_DoubleTapTheBackOfYouriPhone" =
+    "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
+
+"LZ_Content_TripleTapTheBackOfYouriPhone" =
+    "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
+
+
+
+/*
+ startVoiceOver
+ threeFingerTripleTap
+ twoFingerScrub
+ rotorClounterClockwise
+ moveToHome
+ appSwitcher
+ controlCenter
+ notificationCenter
+ oneFingerSingleTap
+ oneFingerDoubleTap
+ oneFingerTripleTap
+ oneFingerQuadrupleTap
+ twoFingerSingleTap
+ twoFingerDoubleTap
+ twoFingerTripleTap
+ twoFingerQuadrupleTap
+ threeFingerSingleTap
+ threeFingerDoubleTap
+ threeFingerTripleTap
+ threeFingerQuadrupleTap
+ fourFingerSingleTap
+ fourFingerDoubleTap
+ fourFingerTripleTap
+ fourFingerQuadrupleTap
+ oneFingerSwipeLeft
+ oneFingerSwipeRight
+ oneFingerSwipeUp
+ oneFingerSwipeDown
+ twoFingerSwipeLeft
+ twoFingerSwipeRight
+ twoFingerSwipeUp
+ twoFingerSwipeDown
+ threeFingerSwipeLeft
+ threeFingerSwipeRight
+ threeFingerSwipeUp
+ threeFingerSwipeDown
+ fourFingerSwipeLeft
+ fourFingerSwipeRight
+ fourFingerSwipeUp
+ fourFingerSwipeDown
+ twoFingerRotateCounterClockwise
+ twoFingerRotateClockwise
+ twoFingerScrub
+ twoFingerSingleTapAndHold
+ threeFingerDoubleTapHoldAndFlickLeft
+ threeFingerDoubleTapHoldAndFlickRight
+ doubleTapTheBackOfYouriPhone
+ tripleTapTheBackOfYouriPhone
+
+ 
+ 
+ // 편의기능
+ "LZ_Content_MoveToHome" = "ppap";
+ "LZ_Content_AppSwitcher" = "ppap";
+ "LZ_Content_ControlCenter" = "ppap";
+ "LZ_Content_NotificationCenter" = "ppap";
+ // 탭: 한 손가락
+ "LZ_Content_OneFingerSingleTap" = "ppap";
+ "LZ_Content_OneFingerDoubleTap" = "ppap";
+ "LZ_Content_OneFingerTripleTap" = "ppap";
+ "LZ_Content_OneFingerQuadrupleTap" = "ppap";
+ // 탭: 두 손가락
+ "LZ_Content_TwoFingerSingleTap" = "ppap";
+ "LZ_Content_TwoFingerDoubleTap" = "ppap";
+ "LZ_Content_TwoFingerTripleTap" = "ppap";
+ "LZ_Content_TwoFingerQuadrupleTap" = "ppap";
+ // 탭: 세 손가락
+ "LZ_Content_ThreeFingerSingleTap" = "ppap";
+ "LZ_Content_ThreeFingerDoubleTap" = "ppap";
+ "LZ_Content_ThreeFingerTripleTap" = "ppap";
+ "LZ_Content_ThreeFingerQuadrupleTap" = "ppap";
+ // 탭: 네 손가락
+ "LZ_Content_FourFingerSingleTap" = "ppap";
+ "LZ_Content_FourFingerDoubleTap" = "ppap";
+ "LZ_Content_FourFingerTripleTap" = "ppap";
+ "LZ_Content_FourFingerQuadrupleTap" = "ppap";
+ // 쓸어넘기기: 한 손가락
+ "LZ_Content_OneFingerSwipeLeft" = "ppap";
+ "LZ_Content_OneFingerSwipeRight" = "ppap";
+ "LZ_Content_OneFingerSwipeUp" = "ppap";
+ "LZ_Content_OneFingerSwipeDown" = "ppap";
+ // 쓸어넘기기: 두 손가락
+ "LZ_Content_TwoFingerSwipeLeft" = "ppap";
+ "LZ_Content_TwoFingerSwipeRight" = "ppap";
+ "LZ_Content_TwoFingerSwipeUp" = "ppap";
+ "LZ_Content_TwoFingerSwipeDown" = "ppap";
+ // 쓸어넘기기: 세 손가락
+ "LZ_Content_ThreeFingerSwipeLeft" = "ppap";
+ "LZ_Content_ThreeFingerSwipeRight" = "ppap";
+ "LZ_Content_ThreeFingerSwipeUp" = "ppap";
+ "LZ_Content_ThreeFingerSwipeDown" = "ppap";
+ // 쓸어넘기기: 네 손가락
+ "LZ_Content_FourFingerSwipeLeft" = "ppap";
+ "LZ_Content_FourFingerSwipeRight" = "ppap";
+ "LZ_Content_FourFingerSwipeUp" = "ppap";
+ "LZ_Content_FourFingerSwipeDown" = "ppap";
+ // 회전
+ "LZ_Content_TwoFingerRotateCounterClockwise" = "ppap";
+ "LZ_Content_TwoFingerRotateClockwise" = "ppap";
+ // 문지르기
+ "LZ_Content_TwoFingerScrub" = "ppap";
+ // 탭하고 누른 채로 있기: 두 손가락
+ "LZ_Content_TwoFingerSingleTapAndHold" = "ppap";
+ // 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+ "LZ_Content_ThreeFingerDoubleTapHoldAndFlickLeft" = "ppap";
+ "LZ_Content_ThreeFingerDoubleTapHoldAndFlickRight" = "ppap";
+ // 뒷면 탭
+ "LZ_Content_DoubleTapTheBackOfYouriPhone" = "ppap";
+ "LZ_Content_TripleTapTheBackOfYouriPhone" = "ppap";
+
+ */

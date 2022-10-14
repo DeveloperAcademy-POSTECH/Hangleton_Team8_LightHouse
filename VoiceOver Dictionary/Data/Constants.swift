@@ -12,11 +12,11 @@ struct Constants {
     enum MainCategory: String, CaseIterable {
         case requiredFeatures = "Lz_Setting"
         case convenienceFeatures = "LZ_convenienceFeatures"
-        // tab
-        case tabOneFinger = "LZ_tabOneFinger"
-        case tabTwoFingers = "LZ_tabTwoFingers"
-        case tabThreeFingers = "LZ_tabThreeFingers"
-        case tabFourFingers = "LZ_tabFourFingers"
+        // tap
+        case tapOneFinger = "LZ_tapOneFinger"
+        case tapTwoFingers = "LZ_tapTwoFingers"
+        case tapThreeFingers = "LZ_tapThreeFingers"
+        case tapFourFingers = "LZ_tapFourFingers"
         // swipe
         case swipeOneFinger = "LZ_swipeOneFinger"
         case swipeTwoFingers = "LZ_swipeTwoFingers"
@@ -26,12 +26,12 @@ struct Constants {
         case rotate = "LZ_rotate"
         // scrub
         case scrub = "LZ_scrub"
-        // tab & hold two fingers
-        case tabAndHoldTwoFingers = "LZ_tabAndHoldTwoFingers"
-        // double tab, hold, & flick
-        case doubleTabHoldAndFlickThreeFingers = "LZ_doubleTabHoldAndFlickThreeFingers"
-        // Back tab
-        case backTab = "LZ_backTab"
+        // tap & hold two fingers
+        case tapAndHoldTwoFingers = "LZ_tapAndHoldTwoFingers"
+        // double tap, hold, & flick
+        case doubleTapHoldAndFlickThreeFingers = "LZ_doubleTapHoldAndFlickThreeFingers"
+        // Back tap
+        case backTap = "LZ_backTap"
     }
     
     static let GestureArray = [
@@ -86,100 +86,100 @@ struct Constants {
                 imageName:"notificationCenter"),
         
         // 탭: 한 손가락
-        Gesture(mainCategory:.tabOneFinger,
+        Gesture(mainCategory:.tapOneFinger,
                 title:"LZ_Title_OneFingerSingleTap".localized,
                 subTitle:"LZ_SubTitle_OneFingerSingleTap".localized,
                 content:"LZ_Content_OneFingerSingleTap".localized,
                 imageName:"oneFingerSingleTap"),
         
-        Gesture(mainCategory:.tabOneFinger,
+        Gesture(mainCategory:.tapOneFinger,
                 title:"LZ_Title_OneFingerDoubleTap".localized,
                 subTitle:"LZ_SubTitle_OneFingerDoubleTap".localized,
                 content:"LZ_Content_OneFingerDoubleTap".localized,
                 imageName:"oneFingerDoubleTap"),
         
-        Gesture(mainCategory:.tabOneFinger,
+        Gesture(mainCategory:.tapOneFinger,
                 title:"LZ_Title_OneFingerTripleTap".localized,
                 subTitle:"LZ_SubTitle_OneFingerTripleTap".localized,
                 content:"LZ_Content_OneFingerTripleTap".localized,
                 imageName:"oneFingerTripleTap"),
         
-        Gesture(mainCategory:.tabOneFinger,
+        Gesture(mainCategory:.tapOneFinger,
                 title:"LZ_Title_OneFingerQuadrupleTap".localized,
                 subTitle:"LZ_SubTitle_OneFingerQuadrupleTap".localized,
                 content:"LZ_Content_OneFingerQuadrupleTap".localized,
                 imageName:"oneFingerQuadrupleTap"),
         
         // 탭: 두 손가락
-        Gesture(mainCategory:.tabTwoFingers,
+        Gesture(mainCategory:.tapTwoFingers,
                 title:"LZ_Title_TwoFingerSingleTap".localized,
                 subTitle:"LZ_SubTitle_TwoFingerSingleTap".localized,
                 content:"LZ_Content_TwoFingerSingleTap".localized,
                 imageName:"twoFingerSingleTap"),
         
-        Gesture(mainCategory:.tabTwoFingers,
+        Gesture(mainCategory:.tapTwoFingers,
                 title:"LZ_Title_TwoFingerDoubleTap".localized,
                 subTitle:"LZ_SubTitle_TwoFingerDoubleTap".localized,
                 content:"LZ_Content_TwoFingerDoubleTap".localized,
                 imageName:"twoFingerDoubleTap"),
         
-        Gesture(mainCategory:.tabTwoFingers,
+        Gesture(mainCategory:.tapTwoFingers,
                 title:"LZ_Title_TwoFingerTripleTap".localized,
                 subTitle:"LZ_SubTitle_TwoFingerTripleTap".localized,
                 content:"LZ_Content_TwoFingerTripleTap".localized,
                 imageName:"twoFingerTripleTap"),
         
-        Gesture(mainCategory:.tabTwoFingers,
+        Gesture(mainCategory:.tapTwoFingers,
                 title:"LZ_Title_TwoFingerQuadrupleTap".localized,
                 subTitle:"LZ_SubTitle_TwoFingerQuadrupleTap".localized,
                 content:"LZ_Content_TwoFingerQuadrupleTap".localized,
                 imageName:"twoFingerQuadrupleTap"),
         
         // 탭: 세 손가락
-        Gesture(mainCategory:.tabThreeFingers,
+        Gesture(mainCategory:.tapThreeFingers,
                 title:"LZ_Title_ThreeFingerSingleTap".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerSingleTap".localized,
                 content:"LZ_Content_ThreeFingerSingleTap".localized,
                 imageName:"threeFingerSingleTap"),
         
-        Gesture(mainCategory:.tabThreeFingers,
+        Gesture(mainCategory:.tapThreeFingers,
                 title:"LZ_Title_ThreeFingerDoubleTap".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerDoubleTap".localized,
                 content:"LZ_Content_ThreeFingerDoubleTap".localized,
                 imageName:"threeFingerDoubleTap"),
         
-        Gesture(mainCategory:.tabThreeFingers,
+        Gesture(mainCategory:.tapThreeFingers,
                 title:"LZ_Title_ThreeFingerTripleTap".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerTripleTap".localized,
                 content:"LZ_Content_ThreeFingerTripleTap".localized,
                 imageName:"threeFingerTripleTap"),
         
-        Gesture(mainCategory:.tabThreeFingers,
+        Gesture(mainCategory:.tapThreeFingers,
                 title:"LZ_Title_ThreeFingerQuadrupleTap".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerQuadrupleTap".localized,
                 content:"LZ_Content_ThreeFingerQuadrupleTap".localized,
                 imageName:"threeFingerQuadrupleTap"),
         
         // 탭: 네 손가락
-        Gesture(mainCategory:.tabFourFingers,
+        Gesture(mainCategory:.tapFourFingers,
                 title:"LZ_Title_FourFingerSingleTap".localized,
                 subTitle:"LZ_SubTitle_FourFingerSingleTap".localized,
                 content:"LZ_Content_FourFingerSingleTap".localized,
                 imageName:"fourFingerSingleTap"),
         
-        Gesture(mainCategory:.tabFourFingers,
+        Gesture(mainCategory:.tapFourFingers,
                 title:"LZ_Title_FourFingerDoubleTap".localized,
                 subTitle:"LZ_SubTitle_FourFingerDoubleTap".localized,
                 content:"LZ_Content_FourFingerDoubleTap".localized,
                 imageName:"fourFingerDoubleTap"),
         
-        Gesture(mainCategory:.tabFourFingers,
+        Gesture(mainCategory:.tapFourFingers,
                 title:"LZ_Title_FourFingerTripleTap".localized,
                 subTitle:"LZ_SubTitle_FourFingerTripleTap".localized,
                 content:"LZ_Content_FourFingerTripleTap".localized,
                 imageName:"fourFingerTripleTap"),
         
-        Gesture(mainCategory:.tabFourFingers,
+        Gesture(mainCategory:.tapFourFingers,
                 title:"LZ_Title_FourFingerQuadrupleTap".localized,
                 subTitle:"LZ_SubTitle_FourFingerQuadrupleTap".localized,
                 content:"LZ_Content_FourFingerQuadrupleTap".localized,
@@ -306,33 +306,33 @@ struct Constants {
                 imageName:"twoFingerScrub"),
         
         // 탭하고 누른 채로 있기: 두 손가락
-        Gesture(mainCategory:.tabAndHoldTwoFingers,
+        Gesture(mainCategory:.tapAndHoldTwoFingers,
                 title:"LZ_Title_TwoFingerSingleTapAndHold".localized,
                 subTitle:"LZ_SubTitle_TwoFingerSingleTapAndHold".localized,
                 content:"LZ_Content_TwoFingerSingleTapAndHold".localized,
                 imageName:"twoFingerSingleTapAndHold"),
         
         // 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
-        Gesture(mainCategory:.doubleTabHoldAndFlickThreeFingers,
+        Gesture(mainCategory:.doubleTapHoldAndFlickThreeFingers,
                 title:"LZ_Title_ThreeFingerDoubleTapHoldAndFlickLeft".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickLeft".localized,
                 content:"LZ_Content_ThreeFingerDoubleTapHoldAndFlickLeft".localized,
                 imageName:"threeFingerDoubleTapHoldAndFlickLeft"),
         
-        Gesture(mainCategory:.doubleTabHoldAndFlickThreeFingers,
+        Gesture(mainCategory:.doubleTapHoldAndFlickThreeFingers,
                 title:"LZ_Title_ThreeFingerDoubleTapHoldAndFlickRight".localized,
                 subTitle:"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickRight".localized,
                 content:"LZ_Content_ThreeFingerDoubleTapHoldAndFlickRight".localized,
                 imageName:"threeFingerDoubleTapHoldAndFlickRight"),
         
         // 뒷면 탭
-        Gesture(mainCategory:.backTab,
+        Gesture(mainCategory:.backTap,
                 title:"LZ_Title_DoubleTapTheBackOfYouriPhone".localized,
                 subTitle:"LZ_SubTitle_DoubleTapTheBackOfYouriPhone".localized,
                 content:"LZ_Content_DoubleTapTheBackOfYouriPhone".localized,
                 imageName:"doubleTapTheBackOfYouriPhone"),
         
-        Gesture(mainCategory:.backTab,
+        Gesture(mainCategory:.backTap,
                 title:"LZ_Title_TripleTapTheBackOfYouriPhone".localized,
                 subTitle:"LZ_SubTitle_TripleTapTheBackOfYouriPhone".localized,
                 content:"LZ_Content_TripleTapTheBackOfYouriPhone".localized,
