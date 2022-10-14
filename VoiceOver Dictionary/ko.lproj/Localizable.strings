@@ -107,3 +107,132 @@
 // 뒷면 탭
 "LZ_Title_DoubleTapTheBackOfYouriPhone" = "iPhone의 뒷면을 이중 탭하기";
 "LZ_Title_TripleTapTheBackOfYouriPhone" = "iPhone의 뒷면을 삼중 탭하기";
+
+// MARK: Data->Constants(Gesture/subTitle)
+// 필수기능
+"LZ_SubTitle_StartVoiceOver" = " VoiceOver를 켜거나 끄는 방법";
+"LZ_SubTitle_ThreeFingerTripleTap" = "화면 커튼 토글";
+"LZ_SubTitle_TwoFingerScrub" = "취소 하기";
+"LZ_SubTitle_RotorClounterClockwise" = "로터 사용법";
+// 편의기능
+"LZ_SubTitle_MoveToHome" = "홈으로 이동하기 위한 방법";
+"LZ_SubTitle_AppSwitcher" = "앱 전환기를 실행하기 위한 방법";
+"LZ_SubTitle_ControlCenter" = "제어센터를 열거나 닫기 위한 방법";
+"LZ_SubTitle_NotificationCenter" = "알림센터를 열거나 닫기 위한 방법";
+// 탭: 한 손가락
+"LZ_SubTitle_OneFingerSingleTap" = "항목 말하기";
+"LZ_SubTitle_OneFingerDoubleTap" = "활성화";
+"LZ_SubTitle_OneFingerTripleTap" = "길게 누르기 수행";
+"LZ_SubTitle_OneFingerQuadrupleTap" = "보조 활성화";
+// 탭: 두 손가락
+"LZ_SubTitle_TwoFingerSingleTap" = "말하기 토글";
+"LZ_SubTitle_TwoFingerDoubleTap" = "매직 탭";
+"LZ_SubTitle_TwoFingerTripleTap" = "항목 선택 화면 보기";
+"LZ_SubTitle_TwoFingerQuadrupleTap" = "빠른 설정 열기";
+// 탭: 세 손가락
+"LZ_SubTitle_ThreeFingerSingleTap" = "항목 요약 읽기";
+"LZ_SubTitle_ThreeFingerDoubleTap" = "소리 끔 토글";
+"LZ_SubTitle_ThreeFingerTripleTap" = "화면 커튼 토글";
+"LZ_SubTitle_ThreeFingerQuadrupleTap" = "말하기 내용을 클립보드로 복사";
+// 탭: 네 손가락
+"LZ_SubTitle_FourFingerSingleTap" = "최상단 혹은 최하단 항목 선택";
+"LZ_SubTitle_FourFingerDoubleTap" = "시작 도움말";
+"LZ_SubTitle_FourFingerTripleTap" = "감지 모드";
+"LZ_SubTitle_FourFingerQuadrupleTap" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+// 쓸어넘기기: 한 손가락
+"LZ_SubTitle_OneFingerSwipeLeft" = "이전 항목으로 이동";
+"LZ_SubTitle_OneFingerSwipeRight" = "다음 항목으로 이동";
+"LZ_SubTitle_OneFingerSwipeUp" = "이전 로터 항목";
+"LZ_SubTitle_OneFingerSwipeDown" = "다음 로터 항목";
+// 쓸어넘기기: 두 손가락
+"LZ_SubTitle_TwoFingerSwipeLeft" = "밖으로 이동";
+"LZ_SubTitle_TwoFingerSwipeRight" = "안으로 이동";
+"LZ_SubTitle_TwoFingerSwipeUp" = "위에서부터 읽기";
+"LZ_SubTitle_TwoFingerSwipeDown" = "모두 읽기";
+// 쓸어넘기기: 세 손가락
+"LZ_SubTitle_ThreeFingerSwipeLeft" = "오른쪽으로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeRight" = "왼쪽으로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeUp" = "아래로 스크롤";
+"LZ_SubTitle_ThreeFingerSwipeDown" = "위로 스크롤";
+// 쓸어넘기기: 네 손가락
+"LZ_SubTitle_FourFingerSwipeLeft" = "이전 앱으로 전환";
+"LZ_SubTitle_FourFingerSwipeRight" = "다음 앱으로 전환";
+"LZ_SubTitle_FourFingerSwipeUp" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+"LZ_SubTitle_FourFingerSwipeDown" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+// 회전
+"LZ_SubTitle_TwoFingerRotateCounterClockwise" = "이전 로터";
+"LZ_SubTitle_TwoFingerRotateClockwise" = "다음 로터";
+// 문지르기
+"LZ_SubTitle_TwoFingerScrub" = "취소 하기";
+// 탭하고 누른 채로 있기: 두 손가락
+"LZ_SubTitle_TwoFingerSingleTapAndHold" = "항목 레이블 정하기";
+// 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
+"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickLeft" = "실행 취소";
+"LZ_SubTitle_ThreeFingerDoubleTapHoldAndFlickRight" = "실행 복귀";
+// 뒷면 탭
+"LZ_SubTitle_DoubleTapTheBackOfYouriPhone" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+"LZ_SubTitle_TripleTapTheBackOfYouriPhone" = "(기본 제공 기능은 없지만 사용자 설정 가능)";
+
+
+/*
+ VoiceOver를 켜거나 끄는 방법
+ 화면 커튼 토글
+ 취소 하기
+ 로터 사용법
+ 
+ 홈으로 이동하기 위한 방법
+ 앱 전환기를 실행하기 위한 방법
+ 제어센터를 열거나 닫기 위한 방법
+ 알림센터를 열거나 닫기 위한 방법
+ 
+ 항목 말하기
+ 활성화
+ 길게 누르기 수행
+ 보조 활성화
+ 
+ 말하기 토글
+ 매직 탭
+ 항목 선택 화면 보기
+ 빠른 설정 열기
+ 
+ 항목 요약 읽기
+ 소리 끔 토글
+ 화면 커튼 토글
+ 말하기 내용을 클립보드로 복사
+ 
+ 최상단 혹은 최하단 항목 선택
+ 시작 도움말
+ 감지 모드
+ (기본 제공 기능은 없지만 사용자 설정 가능)
+ 
+ 이전 항목으로 이동
+ 다음 항목으로 이동
+ 이전 로터 항목
+ 다음 로터 항목
+ 
+ 밖으로 이동
+ 안으로 이동
+ 위에서부터 읽기
+ 모두 읽기
+ 
+ 오른쪽으로 스크롤
+ 왼쪽으로 스크롤
+ 아래로 스크롤
+ 위로 스크롤
+ 이전 앱으로 전환
+ 다음 앱으로 전환
+ (기본 제공 기능은 없지만 사용자 설정 가능)
+ (기본 제공 기능은 없지만 사용자 설정 가능)
+ 
+ 
+ 이전 로터
+ 다음 로터
+ 
+ 취소 하기
+ 항목 레이블 정하기
+ 실행 취소
+ 실행 복귀
+ (기본 제공 기능은 없지만 사용자 설정 가능)
+ (기본 제공 기능은 없지만 사용자 설정 가능)
+
+ */
