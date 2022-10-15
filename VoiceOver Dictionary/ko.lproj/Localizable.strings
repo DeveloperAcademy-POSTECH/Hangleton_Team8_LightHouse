@@ -177,23 +177,27 @@
 // MARK: Data->Constants(Gesture/content)
 // 필수기능
 "LZ_Content_StartVoiceOver" =
-    "총 세 가지 방법이 있습니다.\n\n첫 번째로, 시리를 호출한 후 “보이스오버 켜줘”라고 말할 시 VoiceOver 기능을 사용하실 수 있습니다. 다시 끄고 싶은 경우에는 시리를 호출한 후 “보이스오버 꺼줘”라고 말해보세요.\n\n두 번째로, 설정 앱에서 “손쉬운 사용”으로 이동 후 VoiceOver 화면으로 이동하면, VoiceOver를 켜고 끌 수 있습니다.\n\n마지막으로, 설정 앱에서 “손쉬운 사용”으로 이동 후 “손쉬운 사용 단축키”에서 VoiceOver를 단축키로 설정할 수 있습니다. 설정 후에 홈버튼이 없는 기종의 경우 전원 버튼을 삼중 클릭하면 VoiceOver를 끄고 킬 수 있습니다. 홈버튼이 있는 기종의 경우에는 홈 버튼을 삼중 클릭하세요.";
+    "총 세 가지 방법이 있습니다.\n\n첫 번째로, 시리를 호출한 후 \"보이스오버 켜줘”라고 말할 시 VoiceOver 기능을 사용하실 수 있습니다. 다시 끄고 싶은 경우에는 시리를 호출한 후 \"보이스오버 꺼줘”라고 말해보세요.\n\n두 번째로, 설정 앱에서 \"손쉬운 사용”으로 이동 후 VoiceOver 화면으로 이동하면, VoiceOver를 켜고 끌 수 있습니다.\n\n마지막으로, 설정 앱에서 \"손쉬운 사용”으로 이동 후 \"손쉬운 사용 단축키”에서 VoiceOver를 단축키로 설정할 수 있습니다. 설정 후에 홈버튼이 없는 기종의 경우 전원 버튼을 삼중 클릭하면 VoiceOver를 끄고 킬 수 있습니다. 홈버튼이 있는 기종의 경우에는 홈 버튼을 삼중 클릭하세요.";
 
 "LZ_Content_ThreeFingerTripleTap" =
     "화면 커튼이 켜져 있으면 화면을 완전히 어둡게 만들어줍니다. 다른 사람에게는 화면이 꺼져 보이지만, 기기 및 VoiceOver 탐색이 활성 상태로 유지됩니다. 개인정보 보호 기능을 강화 시 키기기 위해서 해당 기능을 사용하실 수 있습니다. \n한 번 더 세 손가락으로 삼중 탭 할 경우 화면 커튼 기능이 꺼집니다. \n손쉬운 사용의 확대/축소가 활성화되어 있으면 세 손가락으로 사중 탭 하기 제스처를 통해 해당 기능을 이용할 수 있습니다.";
 
 "LZ_Content_TwoFingerScrub" =
     "이전 화면으로 이동하거나 화면을 닫습니다. 두 손가락을 Z모양으로 드래그하면 해당 화면의 이전 화면으로 이동하거나 제어센터, 알림센터, 앱 전환기, 앱폴더 등 닫기 버튼이 따로 없는 화면을 닫습니다. 키보드가 열려 있을 경우에는 키보드를 접을 수 있습니다.";
+
 "LZ_Content_RotorClounterClockwise" =
     "로터를 사용하여 음량, 말하기 속도, 음높이 변경 또는 발음 기호 사용, 에코 입력 및 구두점 읽기와 같은 설정을 조절할 수 있습니다.\n화면에 두 손가락을 올려놓은 채로 두 손가락을 시계 또는 반시계 방향으로 회전시켜서 사용이 가능합니다. 양손을 사용하는 경우에는 한 손가락은 고정해두고 나머지 한 손가락을 시계 또는 반시계 방향으로 드래그하세요.";
+
 // 편의기능
 "LZ_Content_MoveToHome" =
     "홈버튼이 없는 기종일 경우 알림음이 2번 울릴 때까지 화면 하단 가장자리에서 위의 방향으로 쓸어 올리세요. \n홈버튼이 있는 기종의 경우에는 홈 버튼을 한번 클릭하세요.";
 
 "LZ_Content_AppSwitcher" =
     "홈버튼이 없는 기종일 경우 알림음이 3번 울릴 때까지 화면 하단 가장자리에서 위의 방향으로 길게 쓸어 올리세요. \n홈버튼이 있는 기종일 경우 홈 버튼을 두 번 클릭하세요. \n앱 전환기에 있는 앱을 삭제하고 싶은 경우 해당 앱을 선택하고 세 손가락을 위로 드래그하세요.";
+
 "LZ_Content_ControlCenter" =
     "시간, 배터리 등 상태 아이콘이 표시되어 있는 최상단의 상태 막대를 탭한 후 세 손가락을 위쪽 방향으로 쓸어 올리세요. \n제어센터를 닫으려면 두 손가락으로 문지르기를 하시면 됩니다.";
+
 "LZ_Content_NotificationCenter" =
     "시간 및 베터리가 표시되어 있는 최상단의 상태 막대를 탭한 후 세 손가락을 아래쪽 방향으로 쓸어 내리세요. \n알림센터를 닫으려면 두 손가락으로 문지르기를 하시면 됩니다.";
 
@@ -329,69 +333,3 @@
 
 "LZ_Content_TripleTapTheBackOfYouriPhone" =
     "(기본적으로 제공되는 기능은 없으나, 설정에서 해당 제스처를 수행할 시 실행되는 기능을 설정할 수 있습니다.)";
-
-
-
-/*
-
- 
- // 편의기능
- "LZ_Content_MoveToHome" = "ppap";
- "LZ_Content_AppSwitcher" = "ppap";
- "LZ_Content_ControlCenter" = "ppap";
- "LZ_Content_NotificationCenter" = "ppap";
- // 탭: 한 손가락
- "LZ_Content_OneFingerSingleTap" = "ppap";
- "LZ_Content_OneFingerDoubleTap" = "ppap";
- "LZ_Content_OneFingerTripleTap" = "ppap";
- "LZ_Content_OneFingerQuadrupleTap" = "ppap";
- // 탭: 두 손가락
- "LZ_Content_TwoFingerSingleTap" = "ppap";
- "LZ_Content_TwoFingerDoubleTap" = "ppap";
- "LZ_Content_TwoFingerTripleTap" = "ppap";
- "LZ_Content_TwoFingerQuadrupleTap" = "ppap";
- // 탭: 세 손가락
- "LZ_Content_ThreeFingerSingleTap" = "ppap";
- "LZ_Content_ThreeFingerDoubleTap" = "ppap";
- "LZ_Content_ThreeFingerTripleTap" = "ppap";
- "LZ_Content_ThreeFingerQuadrupleTap" = "ppap";
- // 탭: 네 손가락
- "LZ_Content_FourFingerSingleTap" = "ppap";
- "LZ_Content_FourFingerDoubleTap" = "ppap";
- "LZ_Content_FourFingerTripleTap" = "ppap";
- "LZ_Content_FourFingerQuadrupleTap" = "ppap";
- // 쓸어넘기기: 한 손가락
- "LZ_Content_OneFingerSwipeLeft" = "ppap";
- "LZ_Content_OneFingerSwipeRight" = "ppap";
- "LZ_Content_OneFingerSwipeUp" = "ppap";
- "LZ_Content_OneFingerSwipeDown" = "ppap";
- // 쓸어넘기기: 두 손가락
- "LZ_Content_TwoFingerSwipeLeft" = "ppap";
- "LZ_Content_TwoFingerSwipeRight" = "ppap";
- "LZ_Content_TwoFingerSwipeUp" = "ppap";
- "LZ_Content_TwoFingerSwipeDown" = "ppap";
- // 쓸어넘기기: 세 손가락
- "LZ_Content_ThreeFingerSwipeLeft" = "ppap";
- "LZ_Content_ThreeFingerSwipeRight" = "ppap";
- "LZ_Content_ThreeFingerSwipeUp" = "ppap";
- "LZ_Content_ThreeFingerSwipeDown" = "ppap";
- // 쓸어넘기기: 네 손가락
- "LZ_Content_FourFingerSwipeLeft" = "ppap";
- "LZ_Content_FourFingerSwipeRight" = "ppap";
- "LZ_Content_FourFingerSwipeUp" = "ppap";
- "LZ_Content_FourFingerSwipeDown" = "ppap";
- // 회전
- "LZ_Content_TwoFingerRotateCounterClockwise" = "ppap";
- "LZ_Content_TwoFingerRotateClockwise" = "ppap";
- // 문지르기
- "LZ_Content_TwoFingerScrub" = "ppap";
- // 탭하고 누른 채로 있기: 두 손가락
- "LZ_Content_TwoFingerSingleTapAndHold" = "ppap";
- // 이중 탭하고 누른 채로 휙 넘기기: 세 손가락
- "LZ_Content_ThreeFingerDoubleTapHoldAndFlickLeft" = "ppap";
- "LZ_Content_ThreeFingerDoubleTapHoldAndFlickRight" = "ppap";
- // 뒷면 탭
- "LZ_Content_DoubleTapTheBackOfYouriPhone" = "ppap";
- "LZ_Content_TripleTapTheBackOfYouriPhone" = "ppap";
-
- */
