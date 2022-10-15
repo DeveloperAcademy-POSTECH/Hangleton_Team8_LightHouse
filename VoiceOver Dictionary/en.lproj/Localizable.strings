@@ -188,7 +188,7 @@
 // MARK: Data->Constants(Gesture/content)
 // 필수기능
 "LZ_Content_StartVoiceOver" =
-    "There are three ways in total.\nFirst, you can use VoiceOver when you call Siri and say, \"Please turn on VoiceOver.\" If you want to turn it off again, call Siri and say, \"Turn off VoiceOver.\" \nSecond, you can turn VoiceOver on and off by going to the “VoiceOver” after going to \"Accessibility\" in the Settings. \nLastly, you can go to \"Accessibility Shortcut\" in the Settings and set VoiceOver as a shortcut in “Accessibility Shortcut.\" For models that do not have a home button, you can turn VoiceOver off and on by triple-clicking the power button. For models with home buttons, triple-click the Home button.";
+    "There are three ways in total.\n\nFirst, you can use VoiceOver when you call Siri and say, \"Please turn on VoiceOver.\" If you want to turn it off again, call Siri and say, \"Turn off VoiceOver.\" \n\nSecond, you can turn VoiceOver on and off by going to the “VoiceOver” after going to \"Accessibility\" in the Settings. \n\nLastly, you can go to \"Accessibility Shortcut\" in the Settings and set VoiceOver as a shortcut in “Accessibility Shortcut.\" For models that do not have a home button, you can turn VoiceOver off and on by triple-clicking the power button. For models with home buttons, triple-click the Home button.";
 
 "LZ_Content_ThreeFingerTripleTap" =
     "When the Screen Curtain is turned on, it makes the screen completely dark. The screen appears off to others, but iPhone and VoiceOver remain active. You can use this function to enhance your privacy. \nOnce more triple tap with three fingers, the Screen Curtain is turned off. \nIf Zoom of Accessibility is enabled, the function is available with a three finger quadruple tap gesture.";
