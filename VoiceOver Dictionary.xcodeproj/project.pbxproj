@@ -10,7 +10,8 @@
 		70D5A61728F2B7A2005B44D8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61628F2B7A2005B44D8 /* SettingView.swift */; };
 		70D5A61928F2B812005B44D8 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61828F2B812005B44D8 /* MyWebView.swift */; };
 		70D5A61B28F2B8F9005B44D8 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61A28F2B8F9005B44D8 /* MailView.swift */; };
-		70D5A61D28F2ED24005B44D8 /* ExtensionUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61C28F2ED24005B44D8 /* ExtensionUINavigationController.swift */; };
+		70D5A61D28F2ED24005B44D8 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */; };
+		70DC6DCC28F7062E0079F642 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DC6DCB28F7062E0079F642 /* StringExtension.swift */; };
 		CC4EE91D28F254BC00149D37 /* VoiceOver_DictionaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */; };
 		CC4EE92128F254BD00149D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4EE92028F254BD00149D37 /* Assets.xcassets */; };
 		CC4EE92428F254BD00149D37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC4EE92328F254BD00149D37 /* Preview Assets.xcassets */; };
@@ -25,7 +26,8 @@
 		70D5A61628F2B7A2005B44D8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		70D5A61828F2B812005B44D8 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		70D5A61A28F2B8F9005B44D8 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
-		70D5A61C28F2ED24005B44D8 /* ExtensionUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUINavigationController.swift; sourceTree = "<group>"; };
+		70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		70DC6DCB28F7062E0079F642 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		CC4EE91928F254BC00149D37 /* VoiceOver Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VoiceOver Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOver_DictionaryApp.swift; sourceTree = "<group>"; };
 		CC4EE92028F254BD00149D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,13 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70DC6DCA28F7059F0079F642 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70D5A61C28F2ED24005B44D8 /* UINavigationControllerExtension.swift */,
+				70DC6DCB28F7062E0079F642 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CC4EE91028F254BC00149D37 = {
 			isa = PBXGroup;
 			children = (
-				70D5A61C28F2ED24005B44D8 /* ExtensionUINavigationController.swift */,
-				70D5A61A28F2B8F9005B44D8 /* MailView.swift */,
-				70D5A61628F2B7A2005B44D8 /* SettingView.swift */,
-				70D5A61828F2B812005B44D8 /* MyWebView.swift */,
 				CC4EE91B28F254BC00149D37 /* VoiceOver Dictionary */,
 				CC4EE91A28F254BC00149D37 /* Products */,
 			);
@@ -72,6 +79,7 @@
 		CC4EE91B28F254BC00149D37 /* VoiceOver Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				70DC6DCA28F7059F0079F642 /* Extension */,
 				CC4EE91C28F254BC00149D37 /* VoiceOver_DictionaryApp.swift */,
 				CC4EE94628F2A53A00149D37 /* Localizable.strings */,
 				CC4EE93F28F2A4FC00149D37 /* View */,
@@ -94,7 +102,10 @@
 		CC4EE93F28F2A4FC00149D37 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70D5A61A28F2B8F9005B44D8 /* MailView.swift */,
 				CC65515528F292EE00E637A2 /* MainView.swift */,
+				70D5A61828F2B812005B44D8 /* MyWebView.swift */,
+				70D5A61628F2B7A2005B44D8 /* SettingView.swift */,
 				CC4EE92E28F28F0900149D37 /* DetailView.swift */,
 			);
 			path = View;
@@ -190,11 +201,12 @@
 			files = (
 				CC4EE92B28F28EE800149D37 /* Gesture.swift in Sources */,
 				70D5A61B28F2B8F9005B44D8 /* MailView.swift in Sources */,
+				70DC6DCC28F7062E0079F642 /* StringExtension.swift in Sources */,
 				CC65515628F292EE00E637A2 /* MainView.swift in Sources */,
 				CC4EE92D28F28EF800149D37 /* Constants.swift in Sources */,
 				70D5A61728F2B7A2005B44D8 /* SettingView.swift in Sources */,
 				70D5A61928F2B812005B44D8 /* MyWebView.swift in Sources */,
-				70D5A61D28F2ED24005B44D8 /* ExtensionUINavigationController.swift in Sources */,
+				70D5A61D28F2ED24005B44D8 /* UINavigationControllerExtension.swift in Sources */,
 				CC4EE92F28F28F0900149D37 /* DetailView.swift in Sources */,
 				CC4EE91D28F254BC00149D37 /* VoiceOver_DictionaryApp.swift in Sources */,
 			);
@@ -334,10 +346,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceOver Dictionary/Preview Content\"";
-				DEVELOPMENT_TEAM = ML59XN7A6B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = VODic;
@@ -352,8 +366,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LightHouse.VODic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightHouse.VODic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = VODicApp;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -368,10 +384,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"VoiceOver Dictionary/Preview Content\"";
-				DEVELOPMENT_TEAM = ML59XN7A6B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = LR5A5F6L75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = VODic;
@@ -386,8 +404,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LightHouse.VODic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightHouse.VODic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = VODicApp;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

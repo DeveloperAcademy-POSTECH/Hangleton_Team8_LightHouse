@@ -25,7 +25,7 @@ struct MainView: View {
                     ForEach(Constants.MainCategory.allCases, id: \.self) { mainCategory in
                         let gesturesInMainCategory = gestureList.filter {$0.mainCategory == mainCategory}
                         if !gesturesInMainCategory.isEmpty {
-                            Section(header: Text(mainCategory.rawValue).accessibility(label: Text(mainCategory.rawValue))) {
+                            Section(header: Text(mainCategory.rawValue.localized).accessibility(label: Text(mainCategory.rawValue.localized))) {
                                 ForEach(gesturesInMainCategory, id: \.self) { gesture in
                                     NavigationLink {
                                         DetailView(gesture: gesture)
@@ -64,11 +64,10 @@ struct MainView: View {
                 } label: {
                     HStack(alignment:.bottom,spacing: 1){
                         Image(systemName: "gearshape.fill")
-                            .foregroundColor(.black)
-                            .accessibility(label: Text("설정"))
+                            .foregroundColor(.primary)
+                            .accessibility(label: Text("Lz_Setting".localized))
                     }
                 }
-
             }
             .searchable(text: $searchText)
         }
