@@ -15,7 +15,7 @@ e-mail : VoiceOverDictionaryReport@gmail.com
 
 #### Project execution period : 2022.10.08 ~ 2022.10.09
 
-#### Contributors : [@김동규](https://github.com/Dorodong96) | [@김재성](https://github.com/GroundDev) |  [@류하](https://github.com/seodam-hst) | [@송시원](https://github.com/song-cool) | [@안다은](https://github.com/dana0315/Test-Kraken) | [@유종건](https://github.com/mycookie1) | [@이가은](https://github.com/rriver2) 
+#### Contributors : [@김동규](https://github.com/Dorodong96) | [@김재성](https://github.com/GroundDev) |  [@류하](https://github.com/RuyHa) | [@송시원](https://github.com/song-cool) | [@안다은](https://github.com/dana0315/Test-Kraken) | [@유종건](https://github.com/mycookie1) | [@이가은](https://github.com/rriver2) 
 
 ---------------------------------
 # Description
